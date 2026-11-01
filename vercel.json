@@ -1,0 +1,8 @@
+{
+  "outputDirectory": "public",
+  "headers": [
+    { "source": "/(.*)", "headers": [{ "key": "X-Robots-Tag", "value": "noindex, nofollow" }] },
+    { "source": "/promemoria.ics", "headers": [{ "key": "Content-Type", "value": "text/calendar; charset=utf-8" }] },
+    { "source": "/sw.js", "headers": [{ "key": "Cache-Control", "value": "no-cache" }] }
+  ]
+}
